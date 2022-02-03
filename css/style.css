@@ -5,9 +5,17 @@
 }
 
 body {
-    background-color: cyan;
+    background-color: #ABD7F1;
 }
 
 #contenedor {
-    background-color: beige;
+    background-color: red;
+}
+
+#pantalla {
+    background-color: #25354F;
+}
+
+.boton {
+    background-color: #25354F;
 }
