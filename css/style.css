@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Calibri;
 }
 
 body {
@@ -10,6 +11,23 @@ body {
 
 #contenedor {
     background-color: red;
+    color: white;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 1.5fr 5fr;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 304px;
+    height: 441px;
+}
+
+#botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: repeat(5, 1fr);*/
 }
 
 #pantalla {
@@ -18,4 +36,12 @@ body {
 
 .boton {
     background-color: #25354F;
+}
+
+.simbolo {
+    background-color: #1f8096;
+}
+
+.igual {
+    background-color: #e4801f;
 }

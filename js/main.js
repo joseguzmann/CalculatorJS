@@ -1,3 +1,3 @@
 'strict mode';
 
-console.log("Probando js");
+console.log("Probando");
