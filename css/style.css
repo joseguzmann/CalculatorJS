@@ -3,14 +3,15 @@
     padding: 0;
     border: 0;
     font-family: Calibri;
+    font-size: 22px;
 }
 
 body {
     background-color: #ABD7F1;
 }
 
-#contenedor {
-    background-color: red;
+.contenedor {
+    background-color: white;
     color: white;
     position: fixed;
     display: grid;
@@ -22,26 +23,47 @@ body {
     margin: auto;
     width: 304px;
     height: 441px;
+    box-shadow: 1px 1px 20px #565452;
 }
 
-#botones {
+.botones {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /*grid-template-rows: repeat(5, 1fr);*/
+    grid-template-rows: repeat(5, 1fr);
+    color: rgba(96, 120, 149, 0.8);
+
 }
 
-#pantalla {
+.pantalla {
     background-color: #25354F;
+    border-bottom: solid 1px rgba(51, 145, 163, 0.6);
+    font-size: xxx-large;
 }
 
 .boton {
     background-color: #25354F;
+    border: solid 1px rgba(96, 120, 149, 0.4);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .simbolo {
     background-color: #1f8096;
+    color: rgba(255, 255, 255, 0.8);
+    border: solid 1px rgba(51, 145, 163, 0.6);
+}
+
+.cero {
+    grid-column: 1 / 3;
 }
 
 .igual {
     background-color: #e4801f;
+    color: rgba(255, 255, 255, 0.8);
+    grid-row: 4 / 6;
+    grid-column: 4;
+    border: solid 1px rgba(212, 139, 65, 0.9);
 }
