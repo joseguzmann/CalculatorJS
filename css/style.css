@@ -34,7 +34,7 @@ body {
 
 }
 
-.pantalla {
+#pantalla {
     background-color: #25354F;
     border-bottom: solid 1px rgba(51, 145, 163, 0.6);
     font-size: 43pt;
@@ -78,7 +78,14 @@ body {
     border: solid 1px rgba(212, 139, 65, 0.9);
 }
 
+.boton:active {
+    box-shadow: inset 0px 0px 2px 1px black;
+}
+
+.igual:active {
+    box-shadow: inset 0px 0px 2px 1px #ad6319;
+}
+
 .simbolo:active {
-    box-shadow: inset 0px 0px 2px 2px #195d6c;
-    transition: 1s;
+    box-shadow: inset 0px 0px 2px 1px #195d6c;
 }
