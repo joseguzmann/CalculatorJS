@@ -37,17 +37,27 @@ body {
 .pantalla {
     background-color: #25354F;
     border-bottom: solid 1px rgba(51, 145, 163, 0.6);
-    font-size: xxx-large;
+    font-size: 43pt;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.prueba2 {
+    flex-grow: 1;
 }
 
 .boton {
     background-color: #25354F;
     border: solid 1px rgba(96, 120, 149, 0.4);
     display: flex;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    /*flex-direction: column;*/
+    /*text-align: center;*/
     justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
 
 .simbolo {
@@ -66,4 +76,9 @@ body {
     grid-row: 4 / 6;
     grid-column: 4;
     border: solid 1px rgba(212, 139, 65, 0.9);
+}
+
+.simbolo:active {
+    box-shadow: inset 0px 0px 2px 2px #195d6c;
+    transition: 1s;
 }
